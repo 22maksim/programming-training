@@ -22,13 +22,13 @@ body {
   grid-column-start: 1;grid-column-end: 6;
   display: grid;
   grid-template-columns: 20% 1fr 20%;
-  min-height: 15vh;
+  min-height: 20vh;
   background-color: aqua;
 }
 
 .headerGrid1 {
-  background: url(2445.png)5% 5% no-repeat fixed;
-  background-size: 6%;
+  background: url(2445.png)4% 3% no-repeat fixed;
+  background-size: 4%;
 
 }
 
@@ -41,6 +41,8 @@ body {
 
 .headerGrid3 {
   background-color: rgb(236, 233, 191);
+  padding-left: 19px;
+  padding-top: 7px;
 }
 
 .menu {
@@ -55,29 +57,41 @@ body {
 .elementGrid2 {
   background-color: rgb(217, 217, 247);
   grid-column: 1/3;
-  grid-row: 2/4;
+  display: block;
+}
+
+.linkTop1 {
+  float: left;
+  width: 50%;
+  height: 100%;
+}
+.linkTop2 {
+
+
+}
+
+.button1 {
+  margin: 10px;
+  padding: 5px 10px;
 }
 .elementGrid3 {
   background-color: rgb(250, 218, 218);
-  grid-column: 3/6;
-  grid-row: 2/4;
 }
 .elementGrid4 {
-  background-color: blueviolet;
+  background-color: rgb(173, 233, 178);
 }
 .elementGrid5 {
   background-color: yellow;
 }
 .elementGrid6 {
-  background-color: yellowgreen;
+  background-color: rgba(230, 255, 181, 0.74);
 }
 .elementGrid7 {
-  background-color: chocolate;
-  height: 310px;
-  
+  grid-column-start: 2; grid-column-end: 4;
+  background-color: rgb(118, 228, 173);  
 }
 .elementGrid8 {
-  background-color: cornflowerblue;
+  background-color: rgb(220, 255, 179);
 }
 .elementGrid9 {
   background-color: pink;
@@ -86,10 +100,19 @@ body {
   background-color: wheat;
 }
 .elementGrid11 {
-  background-color: tomato;
+  grid-column-start: 2; grid-column-end: 5;
+  background-color: rgb(137, 250, 122);
 }
 .elementGrid12 {
   background-color: gray;
+}
+
+.info12 {
+  padding: 10px;
+}
+
+.button2 {
+  border-radius: 10px;
 }
 
 footer {
