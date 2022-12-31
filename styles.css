@@ -10,11 +10,9 @@ body {
   min-height: 100%;
   grid-template-columns: repeat(5, 1fr);
   grid-template-rows: 15vh 1fr 1fr;
-  border: 1px solid black;
 }
 
 .elementGrid  {
-  border: 1px dotted blueviolet;
   height: 200px;
 }
 

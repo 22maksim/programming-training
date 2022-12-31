@@ -1,0 +1,12 @@
+.form1 {
+  margin: 0;
+  padding: 0;
+  display: grid;
+  grid-template-columns: 6;
+  grid-template-rows: 1;
+}
+
+.form11 {
+  margin: 0;
+
+}
